@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2 , h3, h4, h5, h5 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+}
+
+.mid-heading {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 7% 15% ;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #Fff;
+}
+
+/* Title section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features {
+   position: relative;
+   z-index: 1;
+}
+
+.feature-box {
+    padding: 4%;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+.feture-logo {
+    color: #ef8a72;
+    margin-bottom: 1rem;
+}
+
+.feture-logo:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #ef8a72;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+}
+
+
+/* Press section */
+#press {
+    background-color: #ef8a72;
+    padding-bottom: 3%;
+}
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* footer section*/
+#footer {
+    padding: 5rem 0;
+    color: #8f8f8f;
+}
+
+.footer-icon{
+    margin: 20px 14px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+}
+
+
+@media (max-width: 1028px) {
+    #title .container-fluid {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+@media (max-width: 615px) {
+    .big-heading {
+        font-size: 2.5rem;
+        
+    }
+    .mid-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 535px) {
+
+    /* Pricing section */
+    #pricing {
+        padding: 8%;
+    }
+    .pricing-column {
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 435px) {
+    .big-heading {
+        font-size: 2rem;
+        
+    }
+    .carousel-item .mid-heading {
+        font-size: 1.5rem;
+    }
+}
+
